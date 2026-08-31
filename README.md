@@ -18,7 +18,7 @@ One manager - all distributions.
 
 ### how to download
 
-curl -L https://github.com/spazmatizm-bit/cit/releases/latest/download/cit -o cit
+curl -L curl -L https://github.com/spazmatizm-bit/cit/releases/download/alpha/cit -o cit
 
 chmod +x cit
 
