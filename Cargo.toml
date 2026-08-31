@@ -1,0 +1,42 @@
+[package]
+name = "cit-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Парсинг аргументов командной строки
+clap = { version = "4.4", features = ["derive"] }
+
+# HTTP клиент для скачивания
+reqwest = { version = "0.11", features = ["blocking", "stream"] }
+
+# Работа с tar/архивами
+tar = "0.4"
+flate2 = "1.0"
+libz-sys = "1.1"
+
+# Парсинг конфига (TOML)
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+
+# Прогресс-бар
+indicatif = "0.17"
+
+# Цветной вывод
+colored = "2.0"
+
+# Работа с XML (для RPM)
+quick-xml = { version = "0.31", features = ["serialize"] }
+
+# Работа с файловой системой
+walkdir = "2.4"
+
+# Обработка ошибок
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Для распаковки .deb
+ar = "0.9"
+
+# Для .tar.zst
+zstd = "0.13"
