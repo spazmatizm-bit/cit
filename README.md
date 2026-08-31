@@ -19,7 +19,9 @@ One manager - all distributions.
 ### how to download
 
 curl -L https://github.com/spazmatizm-bit/cit/releases/latest/download/cit -o cit
+
 chmod +x cit
+
 sudo mv cit /usr/local/bin/
 
 ## Usage
