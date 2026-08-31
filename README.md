@@ -73,11 +73,17 @@ Supported repository types:
 Installed packages are stored in:
 
 ~/.citadel/
+
 ├── arch/core/
+
 │ ├── firefox-120.0/
+
 │ └── ...
+
 ├── debian/stable/
+
 │ └── ...
+
 └── ...
 
 Binary files are automatically linked to `~/.local/bin/`
